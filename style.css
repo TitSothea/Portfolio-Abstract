@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 7rem;
+}
+.header .left{
+    display: flex;
+    gap: 12px;
+}
+.header .left p{
+    font-size: 23px;
+    cursor: pointer;
+}
+.header .left p:hover{
+    opacity: 0.9;
+}
+.header .left i{
+    font-size: 28px;
+}
+.header .right{
+    margin-right: 40px;
+}
+.header .right button{
+   padding: 10px 20px;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 22px;
+   border: none;  
+}
+.header .right button:hover{
+    opacity: 0.9;
+    transition: 0.2s ease;
+}
+.header .right #signin{
+    margin-left: 10px;
+    padding: 10px 30px;
+    background-color: #3498DB;
+    color: white;
+    transition: 0.5s ease;
+}
+.header .right #signin:hover{
+    background-color: white;
+    color: black;
+}
+.header .right #sub{
+    background-color: #1B2631;
+    border: 1px solid white;
+    color: white;
+    transition: 0.4s ease;
+}
+.header .right #sub:hover{
+    background-color: white;
+    color: black;
+}
+/* Search Area */
+.search-area{
+    width: 100%;
+    height: 400px;
+    background-color: #85C1E9;
+}
+.search-area .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    gap: 30px;
+    
+}
+.search-area .container h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+.search-area .container input{
+    width: 50%;
+    padding: 20px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    
+}
+.fa-arrow-right{
+    position: absolute;
+    top: 77%;
+    right:27%;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.fa-arrow-right:hover{
+    color: #2471A3;
+}
+.section{
+    padding: 10%;
+}
+.section h1{
+    font-size: 30px;
+}
+.section p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.section .container{
+    display: flex;
+    justify-content: space-between;
+}
+.section .container .text{
+    display: flex;
+}
+.section .container .info-1{
+    line-height: 50px;
+    /* flex: 1; */
+    width: 50%;
+}
+.section .container .info-2{
+    line-height: 50px;
+    /* flex: 1; */
+    width: 40%;
+    
+    
+}
+.section .container p{
+    line-height: 33px;
+}
+.text2{
+    margin-top: 25%;
+}
+.text3{
+    margin-top: 25%;
+}
+.text5{
+    margin-top: 25%;
+}
+.text6{
+    margin-top: 40%;
+}
+span{
+    color: rgba(255, 0, 0, 0.892);
+    cursor: pointer;
+}
+span:hover{
+    opacity: 0.7;
+}
+.icon{
+    font-size: 60px;
+    margin-right: 30px;
+    color: #3498DB;
+}
+.footer{
+    height: 420px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer .container-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    padding: 45px 30px;
+}
+.footer .container-footer h1{
+    margin-bottom: 25px;
+}
+.footer .container-footer p{
+    line-height: 25px;
+}
+.footer .container-footer .f4 .contact{
+    margin-top: 30%;
+}
+#bold{
+    font-weight: 800;
+}
+.footer .container-footer .f5{
+    position: relative;
+    top: 200px;
+}
+.footer .f5 > i{
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.footer .f5 p{
+    font-size: 20px;
+    
+}
+.footer p{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.footer p:hover{
+    text-decoration: underline;
+}
+ 
+
+
+   
+
